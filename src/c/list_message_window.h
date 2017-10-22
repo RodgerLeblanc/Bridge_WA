@@ -1,0 +1,20 @@
+#ifndef PBL_PLATFORM_APLITE
+
+#pragma once
+
+#include <pebble.h>
+
+#ifdef PBL_PLATFORM_APLITE
+#define LIST_MESSAGE_WINDOW_NUM_ROWS    3
+#else
+#define LIST_MESSAGE_WINDOW_NUM_ROWS    4
+#endif
+
+#define LIST_MESSAGE_WINDOW_CELL_HEIGHT 30
+#define LIST_MESSAGE_WINDOW_MENU_HEIGHT \
+    LIST_MESSAGE_WINDOW_NUM_ROWS * LIST_MESSAGE_WINDOW_CELL_HEIGHT
+#define LIST_MESSAGE_WINDOW_HINT_TEXT   "Settings"
+
+void list_message_window_push();
+
+#endif

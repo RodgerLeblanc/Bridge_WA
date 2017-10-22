@@ -1,0 +1,130 @@
+{
+    "author": "CellNinja",
+    "dependencies": {},
+    "keywords": [],
+    "name": "bridge-wa",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Bridge WA",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "CONFIG_KEY_LARGE_FONT": 28,
+            "CONFIG_KEY_MAIN_COLOR": 27,
+            "CONFIG_KEY_VIBRATION_TYPE": 20,
+            "WATCHAPP_READY_SIGNAL": 0
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/rsz_menu_icon.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_MENU_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/doo.png",
+                    "name": "IMAGE_PEBBLE_DOO",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/GENERIC_SMS.png",
+                    "name": "IMAGE_PEBBLE_SMS_READ",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/GENERIC_EMAIL.png",
+                    "name": "IMAGE_PEBBLE_EMAIL_READ",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/about.png",
+                    "name": "IMAGE_PEBBLE_ABOUT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/DURING_PHONE_CALL_CENTERED.png",
+                    "name": "IMAGE_PEBBLE_TALK",
+                    "type": "png"
+                },
+                {
+                    "file": "images/GENERIC_EMAIL_UNREAD.png",
+                    "name": "IMAGE_PEBBLE_EMAIL_UNREAD",
+                    "type": "png"
+                },
+                {
+                    "file": "images/GENERIC_SMS_UNREAD.png",
+                    "name": "IMAGE_PEBBLE_SMS_UNREAD",
+                    "type": "png"
+                },
+                {
+                    "file": "images/ic_play.png",
+                    "name": "IMAGE_ACTION_PLAY",
+                    "type": "png"
+                },
+                {
+                    "file": "images/ic_previous.png",
+                    "name": "IMAGE_ACTION_PREVIOUS",
+                    "type": "png"
+                },
+                {
+                    "file": "images/menu_indicator.png",
+                    "name": "IMAGE_MENU_INDICATOR",
+                    "type": "png"
+                },
+                {
+                    "file": "images/music_icon_pause.png",
+                    "name": "IMAGE_PEBBLE_ACTION_PAUSE",
+                    "type": "png"
+                },
+                {
+                    "file": "images/music_icon_play.png",
+                    "name": "IMAGE_PEBBLE_ACTION_PLAY",
+                    "type": "png"
+                },
+                {
+                    "file": "images/music_icon_skip_backward.png",
+                    "name": "IMAGE_PEBBLE_ACTION_PREVIOUS",
+                    "type": "png"
+                },
+                {
+                    "file": "images/music_icon_skip_forward.png",
+                    "name": "IMAGE_PEBBLE_ACTION_NEXT",
+                    "type": "png"
+                },
+                {
+                    "file": "images/SETTINGS.png",
+                    "name": "IMAGE_PEBBLE_SETTINGS",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/RADIO_SHOW.png",
+                    "name": "IMAGE_PEBBLE_MUSIC",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite",
+            "emery"
+        ],
+        "uuid": "6b6968bb-7b1a-431a-b8cd-d55c5a4f281f",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.19.0"
+}
